@@ -1,0 +1,123 @@
+// RESET CSS 
+body {
+    background-color: #fff !important;
+    font-size: 14px;
+}
+
+* {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+/* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+    #root {
+
+        // WIDTH 
+        .w-20px {
+            width: 20px;
+        }
+
+        .h-20px {
+            height: 20px;
+        }
+
+        .w-30px {
+            width: 30px;
+        }
+
+        .h-30px {
+            height: 30px;
+        }
+
+        .w-40px {
+            width: 40px;
+        }
+
+        .h-40px {
+            height: 40px;
+        }
+
+        .w-50px {
+            width: 50px;
+        }
+
+        .h-50px {
+            height: 50px;
+        }
+
+        .pointer-click-none {
+            pointer-events: none;
+        }
+
+        // FONTS 
+        .font-10 {
+            font-size: 10px;
+        }
+
+        .font-12 {
+            font-size: 12px;
+        }
+
+        .font-14 {
+            font-size: 14px;
+        }
+
+        // COLORS 
+        .color-000-op-05 {
+            color: rgba(0, 0, 0, 0.5);
+        }
+
+        .bg-success {
+            background-color: #22a290 !important;
+            background: #22a290 !important;
+        }
+
+        .bg-f3f5f9 {
+            background-color: #f3f5f9;
+        }
+
+        // BORDERS 
+        .border-r-10 {
+            border-radius: 10px;
+        }
+
+        .border-r-12 {
+            border-radius: 12px;
+        }
+
+        .border-r-30 {
+            border-radius: 30px;
+        }
+
+        .cursor-pointer {
+            cursor: pointer;
+        }
+    }
